@@ -1,0 +1,204 @@
+a{ color: inherit; text-decoration: inherit; outline: none; }
+ul{ list-style: none; margin: 0; padding: 0; }
+
+body{
+	margin: 0;
+	font: 13px "Roboto";
+	color: #333;
+	background: #fdfbf1;
+}
+
+
+.left{
+	position: fixed;
+	left: 8vw; top: 0;
+	min-height: 100vh;
+	width: 35vw;
+	padding: 80px 0 20px;
+	text-align: center;
+	background: #222;
+}
+.left .dyn{
+	position: absolute;
+}
+.frame{
+	margin-left: 43vw;
+	padding: 30px 50px;
+	width: 50vw;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.left .img{
+	margin: auto;
+	padding: 10px;
+	width: 80px; height: 80px;
+	border-radius: 50%;
+	background: #333 url(/pf1.png) center no-repeat;
+	background-size: contain;
+}
+.left .img::after{
+	content: '';
+	display: block;
+	margin: -16px 0 0 -16px;
+	width: 108px; height: 108px;
+	border-radius: inherit;
+	border: 2px solid #ddc975;
+}
+
+.left .name{
+	display: block;
+	margin: 20px 70px 0;
+	padding: 20px 0;
+	font: 20px 'Montserrat';
+	letter-spacing: 2px;
+	color: #fff;
+	border-bottom: 1px solid #fff2;
+}
+.left .name:hover{
+	color: #f4b0a8;
+}
+
+.left .descr{
+	margin: 20px 40px 30px;
+	font: 300 15px/1.7 'bad script';
+	color: #aaa;
+	letter-spacing: .5px;
+}
+
+.left .social{
+	position: fixed;
+	left: 0; top: 0; bottom: 0;
+	width: 8vw;
+	color: #000aa;
+	font-size: 34px;
+	text-align: center;
+	background: #d2c5a2;
+}
+.left .social a{
+	display: block;
+	margin: 70px 0;
+}
+.left .social .gh{
+	margin-top: 200px;
+}
+.left .social a:hover{
+	color: #222;
+}
+
+.left .button{
+	display: block;
+	padding: 14px 0;
+	border: 1px solid #ddc975;
+	margin: 0 50px 30px;
+	border-radius: 40px;
+	font-size: 14px;
+	color: #ddc975;
+}
+.left .button:hover{
+	border-color: #f4b0a8;
+	color: #f4b0a8;
+}
+
+.left .links{
+	margin: 0 40px;
+}
+.left .links a{
+	display: inline-block;
+	padding: 10px 20px;
+	color: #dbd19538;
+	font: 18px 'Exo 2';
+}
+.left .links a:hover{
+	color: #fc0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	body{
+		width: 200vw;
+		overflow: scroll;
+	}
+	
+
+	.left{
+		top: 0; left: 0;
+		width: 100vw;
+		float: left;
+	}
+
+	.frame{
+		margin-left: 100vw;
+		padding: 30px;
+		width: 100vw;
+		float: left;
+	}
+
+
+
+	.left .img{
+		display: inline-block;
+		margin: 0 20px 30px 0;
+		width: 50px; height: 50px;
+		vertical-align: top;
+	}
+	.left .img::after{
+		width: 78px; height: 78px;
+	}
+	.left .name{
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+	}
+	.left .social{
+		position: static;
+		width: initial;
+		margin-bottom: 50px;
+		font-size: 20px;
+		background: none;
+	}
+	.left .social a{
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.left .social .gh{
+		margin-top: 0;
+	}
+	.left .social a:hover{
+		color: #ddc975;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

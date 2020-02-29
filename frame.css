@@ -1,0 +1,143 @@
+.page h1{
+	margin: 20px 0 40px;
+	color: #555;
+	border-bottom: 2px solid #e8e8e8;
+	padding: 10px 0;
+	font: 300 32px/40px 'Roboto';
+	letter-spacing: 3px;
+}
+.page .img{
+	margin: 40px 0;
+	height: 200px;
+	border-radius: 20px;
+	background: center no-repeat;
+	background-size: cover;
+}
+.page h2{
+	margin: 20px 0 10px;
+	color: #555;
+	font: bold 25px 'Roboto';
+}
+.page h3{
+	margin: 40px 0 10px;
+	color: #555;
+	font: bold 18px/25px 'Roboto';
+	letter-spacing: 1px;
+}
+.page p{
+	color: #333;
+	font: 14px/25px 'Montserrat';
+}
+.page ul{
+	list-style: circle;
+	margin-left: 40px;
+}
+.page li{
+	line-height: 30px;
+}
+.page a:hover{
+	color: #aca183;
+}
+
+.list li{
+	margin: 50px 0;
+	padding: 0 0 30px;
+	border-bottom: 1px solid #eee;
+}
+.list li:last-child{
+	border: none;
+}
+.list .info, .page .info{
+	margin: 40px 0 30px;
+}
+
+.list .info span, .page .info span{
+	margin-right: 10px;
+	background: #f2f2f2;
+	padding: 6px 10px;
+	font: 14px "play";
+	color: #0005;
+}
+.list .info span:nth-child(2){
+	background: #f2e4cd;
+}
+.info a:hover{
+	color: #f4b0a8;
+}
+.list .img{
+	width: 200px;
+	height: 120px;
+	margin: 0 30px 10px 0;
+	float: left;
+	border-radius: 10px;
+	background: center no-repeat;
+	background-size: cover;
+}
+.list h1{
+	margin: 20px 0;
+	padding-bottom: 20px;
+	color: #888;
+	font: bold 30px 'Roboto';
+	border-bottom: 2px solid #aaa;
+}
+.list h2{
+	margin: 0 0 20px;
+	color: #807a63;
+	font: 22px/30px 'Montserrat';
+	letter-spacing: 1px;
+}
+.list h2:hover{
+	color: #f4b0a8;
+}
+.list p{
+	margin: 10px 0 0;
+	color: #0007;
+	font: 300 15px/26px 'Roboto';
+	letter-spacing: .5px;
+}
+.list .read{
+	display: inline-block;
+	margin: 20px 0;
+	padding: 10px 40px;
+	font: 14px "play";
+	letter-spacing: 2px;
+	border: 1px solid #e6d2b3;
+	border-radius: 4px;
+	color: #e6d2b3;
+}
+.list .add{
+	margin: 50px 120px;
+	padding: 15px 0;
+	text-align: center;
+	/*border: 1px solid #53bda7;*/
+	background: #f4e6c0;
+	border-radius: 40px;
+	font: 14px 'play';
+	color: #737556;
+	letter-spacing: 2px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+	.list h2{
+		font: 500 18px/25px "Roboto";
+	}
+	.list .img{
+		width: initial;
+		float: none;
+	}
+	.list p{
+		margin: 20px;
+		font: 300 12px/22px "Roboto";
+	}
+	.page h1{
+		font: 500 20px/30px "Roboto";
+	}
+	.page .img{
+		height: 140px;
+	}
+}
